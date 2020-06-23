@@ -1,0 +1,131 @@
+  body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+  }
+
+  h1 {
+    color: #3cb371;
+    font-size: 5.625rem;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: #3cb371;
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    line-height: 2;
+  }
+
+  hr {
+    border: dotted #a9a9a9 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+  }
+
+  a{
+    color: #24251D;
+    margin: 10px 10px;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #EAF6F6;
+  }
+
+  .top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+  }
+
+  .middle-container {
+    margin: 100px 0;
+  }
+
+  .bottom-container {
+    background-color: #66BFBF;
+    margin-top: 20px;
+    padding: 50px 0 20px;
+  }
+
+  .skill-row {
+    width: 50%;
+    margin: auto;
+  }
+
+  .pro {
+    text-decoration: underline;
+  }
+
+  .contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+  }
+
+  .copyright{
+    color: #EAF6F6;
+    padding: 20px 0;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+  }
+
+  .row {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .js {
+    width: 35%;
+  }
+
+  a {
+    color: #11999E;
+  }
+
+  .btn {
+    background: linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+    background-color: #11cdd4;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 18px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+  }
+
+  .btn:hover {
+    background: linear-gradient(to bottom, #2bc4ad 5%, #30e3cb 100%);
+    background-color: #11999e;
+  }
+
+  .btn:active {
+    position: relative;
+    top: 1px;
+  }
